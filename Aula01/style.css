@@ -1,0 +1,44 @@
+body{
+    background:url(assets/img/filmes.jpg);
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*.codigo {
+    border: 5px;
+    /* configurando tamanho 
+    padding: 10px 30px 30px 10px;
+    color: black;
+
+}
+*/
+a{
+    color: gold;
+    /* Tirar subilinado */
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Diferenciar resposividade moblie do desktop */
+/* apartir dessa largura o as regras serem seguidas serão essas */
+@media(max-width: 375px){
+
+}
+li :hover{
+    list-style-type: georgian;
+    color: gold;
+    font-weight: bold;
+}
+P{
+    color: yellow;
+    font-weight: bold;
+}
+h1{
+    color: gold;
+}
+h2{
+    color: gold;
+}
+
