@@ -40,5 +40,15 @@ h1{
 }
 h2{
     color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.filmes{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    align-self: center;
 }
 
