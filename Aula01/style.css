@@ -27,9 +27,14 @@ a{
 
 }
 li :hover{
-    list-style-type: georgian;
     color: gold;
     font-weight: bold;
+    
+}
+li{
+    /*margin-right: 30%;*/
+    padding: 10px 50px 10px 80px;
+    text-align: justify;
 }
 P{
     color: yellow;
@@ -51,4 +56,31 @@ h2{
 iframe{
     align-self: center;
 }
+.container{
+    padding-top: 15%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.tm{
+    width: 50px;
+    height: 50px;
+    
+}
+.center{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.p1{
+    text-align: justify;
+    width: 500px;
+}
+.quebra{
+    list-style-type: none;
+    display: flex;
+   flex-direction: row;
+   margin-right: 100%;
+   font-family: 'Lobster', cursive;
 
+}
