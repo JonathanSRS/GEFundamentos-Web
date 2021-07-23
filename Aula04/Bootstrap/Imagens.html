@@ -64,7 +64,26 @@
           <span class="sr-only">Próximo</span>
         </a>
       </div>
-
+      <form><!-- formulário para envio de dúvidas-->
+        <div class="form-row">
+          <div class="col-6 p-3">
+            <input type="email" id="email" class="form-control" placeholder="@Email" onkeyup="validaEmail()">
+            <div id ='txtEmail'></div>
+          </div>
+          <div class="col-6 p-3">
+            <input type="text" class="form-control" placeholder="Assunto">
+          </div>
+          <br>
+        </div>
+          <div class="form-row">
+            <div class="col p-3">
+              <textarea class="form-control" placeholder="Sugestão" id="sugestao" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="form-row m-3">
+            <button type="button" class="btn acor w-50">Enviar</button>
+          </div>
+    </form>
 
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
@@ -76,5 +95,6 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
       crossorigin="anonymous"></script>
+      <script src="./assets/boots/js/script.js"></script>
 </body>
 </html>

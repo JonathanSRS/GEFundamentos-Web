@@ -1,6 +1,4 @@
-.bordo{
-    background: #800000;
-}
+
 .corletra{
     color: #000;
     text-decoration: none;
@@ -24,4 +22,15 @@
 }
 .planilhav{
     background-image: url("./../../img/ZvT0IN.png");
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.tm{
+    width: 50px;
+    height: 50px;
+    
 }
