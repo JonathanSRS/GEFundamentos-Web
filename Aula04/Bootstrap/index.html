@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./assets/boots/css/style.css">
+
     <link rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
@@ -12,22 +14,16 @@
 
     <title>Página Inicial</title>
 </head>
-<body bgcolor="#800000">
+<body>
     <div>
-        <div class="B_Hori"> <!-- bar na nave-->
-            <nav class="nav nav-pills nav-justified ">
-                <a class="nav-item nav-link active" href="https://github.com/JonathanSRS" target="_Blank">Github</a>
-                <a class="nav-item nav-link "  href="https://www.linkedin.com/in/jonathan-da-silva-4b61b1215/" target="_Blank">Linkedin</a>
-              </nav>
-        </div>
+
         <di> <!-- Apresentação pra não tomar processo pelos icons-->
 
         </di>
-        <br>
         <div class="card-deck">
             <div class="card">
               
-              <div class="card-body">
+              <div class="card-body acor">
                 <h5 class="card-title"><a href="codigos.html">Código</a></h5>
                 <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
               </div>
@@ -37,7 +33,7 @@
             </div>
             <div class="card">
              
-              <div class="card-body">
+              <div class="card-body acor">
                 <h5 class="card-title"><a href="documentacao.html">Documentação</a></h5>
                 <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
               </div>
@@ -50,7 +46,7 @@
           <div class="card-deck">
             <div class="card">
               
-              <div class="card-body">
+              <div class="card-body acor">
                 <h5 class="card-title"><a href="Imagens.html">Imagens</a></h5>
                 <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
               </div>
@@ -60,7 +56,7 @@
             </div>
             <div class="card">
     
-              <div class="card-body">
+              <div class="card-body acor">
                 <h5 class="card-title"><a href="Referencias.html">Referencias</a></h5>
                 <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
               </div>
@@ -80,19 +76,22 @@
                 </div>
               </div>
               <br>
-              <div class="form-row">
+              <div class="form-group">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Sugestão">
+                  <textarea class="form-control" placeholder="Sugestão" id="sugestao" rows="3"></textarea>
                 </div>
             </div>
             <button type="button" class="btn btn-dark w-100">Enviar</button>
         </form>
-
-
+        <br>
     </div>
     <footer> <!--contatinho-->
-        <!--Likendin-->
-        <!--GitHub-->
+      <div class="B_Hori"> <!-- bar na nave-->
+        <nav class="nav nav-pills nav-justified ">
+            <a class="nav-item nav-link acor" href="https://github.com/JonathanSRS" target="_Blank">Github</a>
+            <a class="nav-item nav-link acor"  href="https://www.linkedin.com/in/jonathan-da-silva-4b61b1215/" target="_Blank">Linkedin</a>
+          </nav>
+    </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 

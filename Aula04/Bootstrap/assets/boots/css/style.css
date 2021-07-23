@@ -1,0 +1,24 @@
+.bordo{
+    background: #800000;
+}
+.corletra{
+    color: #000;
+    text-decoration: none;
+}
+
+.acor:hover{
+    color: #000;
+    background-color: rgb(232, 125, 45);;
+    text-decoration: none;
+}
+.laranjapor{
+    background-color: rgb(232, 125, 45);
+    color: #000;
+}
+.verdesuvelli{
+    background-color: #666E57;
+}
+.corbotao:hover{
+    background-color: rgb(232, 125, 45);
+    color: #000;
+}
