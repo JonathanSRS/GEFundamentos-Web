@@ -16,9 +16,12 @@
     color: #000;
 }
 .verdesuvelli{
-    background-color: #666E57;
+    background-image: url("./../../img/planilhas-excel.png");
 }
 .corbotao:hover{
     background-color: rgb(232, 125, 45);
     color: #000;
+}
+.planilhav{
+    background-image: url("./../../img/ZvT0IN.png");
 }
