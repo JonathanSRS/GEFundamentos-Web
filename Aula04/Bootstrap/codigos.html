@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="./assets/boots/css/style.css">
 </head>
 <body class="verdesuvelli">
-
-    <div class="menu">
-        <nav class="nav laranjapor">
+<div class="wrapper">
+    <div class="menu fixed-top box1">
+        <nav style="border-radius: 10px;" class="nav laranjapor">
+            <img class=" tm" src="./assets/img/logolobo.png" alt="">
             <a class="nav-link corletra" href="index.html">Home</a>
             <a class="nav-link corletra" href="documentacao.html">Documentação</a>
             <a class="nav-link disabled" href="codigos.html">Códigos</a>
@@ -19,65 +20,62 @@
             <a class="nav-link corletra" href="Referencias.html">Referencias</a>
           </nav>
     </div>
-    <br>
-    <h2 align="center">Funcionamento do sistema</h2>
-    <br>
-        <div class="container">
-
-            <div class="row">
-                <div class="col2">
-                    <ul class="nav flex-column nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#CadastroP">Cadastrar Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Cadastrar Fornecedores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Cadastrar Imagens</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Buscar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#BA">Busca Avançada</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Busca Fornecedor</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Alterar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Excluir Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Apagar item da nota</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Mostrar Imagem</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Ocultar Imagens</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Selecionar Imagem</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Criar Nota</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Gerar Pdf</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#">Gerar Status</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link corbotao corletra" href="#LStatus">Limpar Status</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col3">
+    
+        <div class="col2 position-fixed mt-1 box2">
+            <ul class="nav flex-column nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#CadastroP">Cadastrar Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Cadastrar Fornecedores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Cadastrar Imagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Buscar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#BA">Busca Avançada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Busca Fornecedor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Alterar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Excluir Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Apagar item da nota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Mostrar Imagem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Ocultar Imagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Selecionar Imagem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Criar Nota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Gerar Pdf</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#">Gerar Status</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link corbotao corletra" href="#LStatus">Limpar Status</a>
+                </li>
+            </ul>
+        </div>
+    
+                <div class="box3">
+                    <h2 align="center">Funcionamento do sistema</h2>
                     <h3 class="text-center" id="CadastroP">Cadastro de Produtos</h3>
                     <pre>
         Sub cadastro()
@@ -517,8 +515,7 @@
         End Sub
                     </pre>
                 </div>
-            </div>
-        </div>
+    </div>
     <script src="./assets/boots/js/bootstrap.min.js"></script>
 </body>
 </html>

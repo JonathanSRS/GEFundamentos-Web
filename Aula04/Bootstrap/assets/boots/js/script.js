@@ -6,6 +6,6 @@ function validaEmail(){
       txtEmail.innerHTML = 'E-mail inválido'
     }else{
         txtEmail.innerHTML = 'E-mail Válido'
-        txtEmail.style.color = 'green'
+        txtEmail.style.color = 'orange'
     }
 }
